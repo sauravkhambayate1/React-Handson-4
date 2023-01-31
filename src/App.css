@@ -1,4 +1,4 @@
-.App11 {
+.App11{
  background-image: linear-gradient( red, yellow, orange);
  /* line-height: 100px; */
  height: 1000px;
@@ -27,8 +27,7 @@
  
 }
 .not-active{
-  /* margin: 20px;
-  padding: 20px; */
+  
   text-decoration: none;
 }
 
@@ -41,17 +40,56 @@
   /* margin-bottom: 125px; */
   font-size: 20px;
   font-weight: bold;
-  margin-left:850px ;
+  margin-left:1050px ;
+  margin-top: 15px;
 }
 
 .table{
-  width: 1300px;
+  width: 1000px;
   background-color: white;
   text-align: center;
-  height: 500px;
+  height: 150px;
+  margin-top: 45px;
+  margin-left: 250px;
 }
 .main-table{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.edit-table{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  padding: 15px;
+}
+
+#form-head{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-box{
+  /* text-align: center; */
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 1em;
+  border: 0px;
+  border-radius: 2em;
+  font-size: 1.2em;
+  color: red;
+}
+
+.btn{
+  background-color: aqua;
+  border-radius: 50px;
+  width: 250px;
+  height: 50px;
+  /* float: right; */
+  /* margin-bottom: 125px; */
+  font-size: 20px;
+  font-weight: bold;
+  
 }
